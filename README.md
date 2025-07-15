@@ -1,6 +1,6 @@
 # Pet Management System
 
-A comprehensive web application for pet owners and veterinarians to manage pet health records, appointments, and vaccination reminders. Developed by Hodhan Abdi.
+A comprehensive web application for pet owners and veterinarians to manage pet health records, appointments, and vaccination reminders. Developed by Hodan Abdi.
 
 ## Features
 
