@@ -38,12 +38,24 @@ A comprehensive web application for pet owners and veterinarians to manage pet h
 
 2. Create a MySQL database named `pet_management`
 
-3. Configure the database connection in `includes/db_connect.php`:
+3. Configure the database connection in `includes/db_connect.php`: Create a db_connect.php inside the includes folder and copy thefollowing code it to it. change the password and the username to your database username or leave it to root
    ```php
+   <?php
    $host = "localhost";
-   $username = "your_db_username";
+   $username = "root";
    $password = "your_db_password";
    $database = "pet_management";
+    
+   $conn = new mysqli($host, $username, $password, $database);
+   // Check connection
+   if ($conn->connect_error) {
+    die("Connection failed: " . $conn->connect_error);
+    }
+    // Set charset to UTF8 for proper character handling
+    // $conn->set_charset("utf8");
+    // Optional: Set timezone (adjust as needed)
+    date_default_timezone_set('EAT'); // East Africa Time
+    ?>
    ```
 
 4. Run the database setup script:
