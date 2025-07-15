@@ -33,7 +33,8 @@ A comprehensive web application for pet owners and veterinarians to manage pet h
 
 ## Installation
 
-
+1. clone the project to your web server
+   ```git clone https://github.com/Hodhan7/Pet-Health-tracking.git```
 
 2. Create a MySQL database named `pet_management`
 
