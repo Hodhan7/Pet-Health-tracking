@@ -4,7 +4,8 @@ This document explains the secure veterinarian registration process implemented 
 
 ## Overview
 
-To ensure that only legitimate veterinarians can register as vets in the system, we've implemented a registration code system. Each veterinarian must provide a valid registration code during the sign-up process.
+To ensure that only legitimate veterinarians can register as vets in the system, we've implemented a registration code system. Each veterinarian must also
+provide a valid registration code during the sign-up process.
 
 ## How It Works
 
