@@ -300,34 +300,65 @@
 
 /* Alerts */
 .flash-message {
-  padding: 1.25rem;
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  padding: 1rem 1.25rem;
   margin-bottom: 1.5rem;
   border-radius: 0.75rem;
   position: relative;
+  font-weight: 500;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  border: 1px solid transparent;
+}
+
+.flash-message i {
+  font-size: 1.1rem;
+  flex-shrink: 0;
 }
 
 .flash-success {
-  background-color: #e6ffee;
-  color: #2f855a;
+  background-color: #f0fff4;
+  color: #22543d;
+  border-color: #9ae6b4;
   border-left: 4px solid var(--success-color);
+}
+
+.flash-success i {
+  color: var(--success-color);
 }
 
 .flash-error {
   background-color: #fff5f5;
-  color: #c53030;
+  color: #742a2a;
+  border-color: #feb2b2;
   border-left: 4px solid var(--danger-color);
 }
 
+.flash-error i {
+  color: var(--danger-color);
+}
+
 .flash-warning {
-  background-color: #fff8e6;
-  color: #b7791f;
+  background-color: #fefcbf;
+  color: #744210;
+  border-color: #f6e05e;
   border-left: 4px solid var(--warning-color);
 }
 
+.flash-warning i {
+  color: var(--warning-color);
+}
+
 .flash-info {
-  background-color: #ebf5ff;
-  color: #2c5282;
+  background-color: #ebf8ff;
+  color: #2a4365;
+  border-color: #90cdf4;
   border-left: 4px solid var(--primary-color);
+}
+
+.flash-info i {
+  color: var(--primary-color);
 }
 
 /* Pet-specific components */
