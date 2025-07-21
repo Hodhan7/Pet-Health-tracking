@@ -22,7 +22,7 @@ include 'includes/header.php';
             
             <h2 style="font-size: 1.5rem; font-weight: bold; color: #1e40af; margin: 1.5rem 0 1rem;">Our Story</h2>
             <p style="margin-bottom: 1rem; line-height: 1.6;">
-                Pet Management System was developed by <strong>Hodan Abdi</strong> in 2025. As an animal lover and technology enthusiast, Hodhan recognized 
+                Pet Management System was developed by <strong>Hodan Abdi</strong> in 2025. As an animal lover and technology enthusiast, Hodan recognized 
                 the need for a better way to manage pet healthcare information. After experiencing the challenges of keeping track 
                 of vaccination records, medication schedules, and veterinary appointments for pets, she created 
                 a solution that would make pet healthcare management easier for everyone.
